@@ -6,6 +6,7 @@ title: Student Blog
 
 ## SNAT Blog
 Our names are Abby, Nuper, Sreeja, and Tanvi. This is about our journey through our pasion project. 
+
 ![Alt text](image.png)
 
 ## Overview of Hacks, Study and Tangibles
