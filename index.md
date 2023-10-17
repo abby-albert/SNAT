@@ -9,6 +9,7 @@ title: Student Blog
 
 ## SNAT Team homepage
 Welcome to our homepage ;)
+
 ![Alt text](6410C3B2-B590-4460-8DF8-A3C00334A06F_1_105_c.jpeg)
 
 ## Who are we?
