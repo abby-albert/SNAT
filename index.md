@@ -24,11 +24,11 @@ SNAT backend: Tanvi
 
 
 SNAT backend: Nupur
-- {write ya bio}
+- Hi, I'm Nupur and I am in 10th grade at Del Norte High School. I like to play tenis and hang out with my friends.
 
 
 SNAT frontend: Abby
-- Hi, I'm Abby and I am in 10th grade at Del Norte High School. I like to read, listen to music, and sleep. This year I am taking AP Computer Science Principles and AP Chemistry. 
+- Hi, I'm Abby and I am in 10th grade at Del Norte High School. I like to read, listen to music, and sleep. 
 
 
 ## Our project
