@@ -42,6 +42,6 @@ We aim to create a "study buddy" for our passion project this year. As students 
 |------|-------|
 |10/8| Create shared repositiories, deploy backend on AWS and front end |
 |10/10 | Create the homepage and do a small about-SNAT and add our goal, with study buddy-Frontend assignment. Add in pictures of the crew, create a backgroup on a person struggling to study, and make the background move and loop|
-|10/16 |Create the backend code for the inputting of schedules and the code so that it will send notifications and reminders |
+|10/18 |Create the backend code for the inputting of schedules and the code so that it will send notifications and reminders |
 | 10/25| Create code for making flashcards, organize it based on subject, and input guideline basics for each subject. Ex. for calc, add flashcards of the basic derivatives of trig functions. For che,: add in solubility rules. We can also consider adding in AI.|
 |11/1 |Do a final run-through of the study buddy to make sure everything is running smootly and nothing is glitching. If possible, add a video on the homepage about us. We can add an ad that shows how to use the study buddy and create a user-friendly guide.  |
