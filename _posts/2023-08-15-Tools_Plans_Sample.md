@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 comments: false
 layout: post
 title: Sample Daily Plan 
