@@ -4,6 +4,7 @@ layout: default
 title: Student Blog
 ---
 
+<<<<<<< HEAD
 ## SNAT Team homepage
 Welcome to our homepage ;)
 
@@ -42,3 +43,15 @@ We aim to create a "study buddy" for our passion project this year. As students 
 |10/18 |Create the backend code for the inputting of schedules and the code so that it will send notifications and reminders |
 | 10/25| Create code for making flashcards, organize it based on subject, and input guideline basics for each subject. Ex. for calc, add flashcards of the basic derivatives of trig functions. For che,: add in solubility rules. We can also consider adding in AI.|
 |11/1 |Do a final run-through of the study buddy to make sure everything is running smootly and nothing is glitching. If possible, add a video on the homepage about us. We can add an ad that shows how to use the study buddy and create a user-friendly guide.  |
+=======
+
+## SNAT Blog
+Our names are Abby, Nuper, Sreeja, and Tanvi. This is about our journey through our pasion project. 
+
+## Overview of Hacks, Study and Tangibles
+Blogging in GitHub pages is a way to learn and code at the same time. 
+
+- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
+- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
+- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+>>>>>>> 7d20944f5a026f45482d918310f4682c052f9f76
