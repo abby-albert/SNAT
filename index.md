@@ -46,6 +46,7 @@ We aim to create a "study buddy" for our passion project this year. As students 
 | 10/25| Create code for making flashcards, organize it based on subject, and input guideline basics for each subject. Ex. for calc, add flashcards of the basic derivatives of trig functions. For che,: add in solubility rules. We can also consider adding in AI.|
 |11/1 |Do a final run-through of the study buddy to make sure everything is running smootly and nothing is glitching. If possible, add a video on the homepage about us. We can add an ad that shows how to use the study buddy and create a user-friendly guide.  |
 
+## CALC AB FLASHCARD
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,16 +82,16 @@ We aim to create a "study buddy" for our passion project this year. As students 
 
     <div class="flashcard">
         <h2>Question 1</h2>
-        <p>What is the capital of France?</p>
+        <p>What is the derivative of sin(x)?</p>
         <button onclick="showAnswer(this)">Show Answer</button>
-        <p style="display:none;"><strong>Answer:</strong> Paris</p>
+        <p style="display:none;"><strong>Answer:</strong> cos(x)dx</p>
     </div>
 
     <div class="flashcard">
         <h2>Question 2</h2>
-        <p>What is the largest planet in our solar system?</p>
+        <p>what is the derivative of sin(u)?</p>
         <button onclick="showAnswer(this)">Show Answer</button>
-        <p style="display:none;"><strong>Answer:</strong> Jupiter</p>
+        <p style="display:none;"><strong>Answer:</strong> cos(u)du/dx</p>
     </div>
 
     <!-- Add more flashcards as needed -->
