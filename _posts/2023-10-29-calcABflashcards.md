@@ -1,4 +1,14 @@
-## CALC AB FLASHCARD
+---
+toc: false
+comments: true
+layout: post
+title: CALC AB FLASHCARD
+description: calc flashcards
+type: plans
+courses: { compsci: {week: 0} }
+permalink: /plans/week3
+---
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
