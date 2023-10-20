@@ -4,8 +4,8 @@ comments: true
 layout: post
 title: CALC AB FLASHCARD
 description: calc flashcards
-type: plans
-courses: { compsci: {week: 0} }
+type: flashcards
+courses: { compsci: {units in chemistry, unit: 0} }
 permalink: /plans/week3
 ---
 
