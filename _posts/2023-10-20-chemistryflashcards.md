@@ -2,8 +2,8 @@
 toc: false
 comments: true
 layout: post
-title: flashcards
-description: flashcards for calc AB
+title: chemistry flashcards
+description: flashcards for ap chem
 type: plans
 courses: { compsci: {week: 0} }
 permalink: /plans/week3
