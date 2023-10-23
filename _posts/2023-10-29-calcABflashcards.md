@@ -1,7 +1,7 @@
 ---
 toc: false
 comments: true
-layout: post
+layout: units in chemistry
 title: flashcards
 description: flashcards for calc AB
 type: plans
