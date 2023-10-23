@@ -1,11 +1,11 @@
 ---
 toc: false
 comments: true
-layout: units in chemistry
+layout: post
 title: flashcards
 description: flashcards for calc AB
 type: plans
-courses: { compsci: {week: 0} }
+courses: { compsci, unit 1: {week: 0} }
 permalink: /plans/week3
 ---
 
