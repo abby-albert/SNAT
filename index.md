@@ -1,1 +1,1 @@
-![Alt text](image-1.png){:height="500px" width="500px"}
+![Alt text](image-1.png){:height="500px" width="750px"}
