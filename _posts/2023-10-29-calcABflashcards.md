@@ -5,7 +5,7 @@ layout: post
 title: flashcards
 description: flashcards for calc AB
 type: plans
-courses: { compsci: {Unit 2, week: 0} }
+courses: { compsci: {week: 0} }
 permalink: /plans/week3
 ---
 
