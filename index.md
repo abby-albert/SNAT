@@ -1,2 +1,2 @@
 
-<img src="![Alt text](image-1.png)" width="500">
+![Alt text](image-1.png) width="1000">
