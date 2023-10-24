@@ -2,7 +2,7 @@
 toc: false
 comments: true
 layout: post
-title: flashcards
+title: Calc AB flashcards
 description: flashcards for calc AB
 type: plans
 courses: { compsci: {week: 0} }
