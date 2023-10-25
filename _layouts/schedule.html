@@ -41,7 +41,7 @@ Load all posts with site
 
 <table>
   <tr>
-    <th>Unit</th>
+    <th>Course</th>
     <th>Flashcards</th>
     <th>Videos</th>
     <th>Practice tests</th>
@@ -116,9 +116,9 @@ Load all posts with site
   <td> {{ index }} </td> 
   <td>
   {% for i in (0..units.size) -%} 
-    {% if units.size == 0 %}
+    {% if units.size == Chemistry %}
       {% break %}
-    {% elsif units[0] == sym %} <!-- make new column -->
+    {% elsif units[Chemistry] == sym %} <!-- make new column -->
   </td>
   <td>
       {% assign units = units | shift %} <!-- remove delimiter -->
