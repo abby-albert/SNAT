@@ -74,9 +74,9 @@ Load all posts with site
   {%comment%} 
   <!-- prepare data blog post data for evaluation -->
   {%endcomment%}
-        {% assign week = flashcards.courses[page.course].course | practice tests: 0 %}
-        {% assign title = flashcards.title | compact %}
-        {% assign url = flashcards.url | compact %}
+        {% assign week = posts.courses[page.course].course | practice tests: 0 %}
+        {% assign title = posts.title | compact %}
+        {% assign url = posts.url | compact %}
   
   {%comment%} 
   <!-- process posts for current week -->
@@ -86,13 +86,13 @@ Load all posts with site
   {%comment%} 
   <!-- organizing blogs by type -->
   {%endcomment%}
-          {% if flashcards.type == "flashcards" %} 
-              {% assign flashcards = flashcards | unshift: title %}
-              {% assign flashcards = flashcards | unshift: url %}
-          {% elsif flashcards.type == "hacks" %}
+          {% if posts.type == "posts" %} 
+              {% assign posts = posts | unshift: title %}
+              {% assign posts = posts | unshift: url %}
+          {% elsif posts.type == "hacks" %}
               {% assign Videos = Videos | unshift: title %}
               {% assign Videos = Videos | unshift: url %} 
-          {% elsif flashcards.type == "Practice tests" %}
+          {% elsif posts.type == "Practice tests" %}
               {% assign practice tests = practice tests | unshift: title %}
               {% assign practice tests = practice tests | unshift: url %} 
           {% else %}
@@ -107,7 +107,7 @@ Load all posts with site
   {%comment%} 
   <!-- ordering units and inserting column delimiters -->
   {%endcomment%}
-  {% assign course = course | concat: FlashCards | concat:deli | concat: Videos | concat:deli | concat: Practice tests  %}
+  {% assign course = course | concat: posts | concat:deli | concat: Videos | concat:deli | concat: Practice tests  %}
 
   {%comment%} 
   <!-- This Loop is maximum iterationss, since elements are pairs it will decrement a extra times at the end -->
