@@ -115,7 +115,7 @@ Load all posts with site
   <tr>
   <td> {{ index }} </td> 
   <td>
-  {% for i in (0..units.size) -%} 
+  {% for i in (chemistry..units.size) -%} 
     {% if units.size == Chemistry %}
       {% break %}
     {% elsif units[Chemistry] == sym %} <!-- make new column -->
