@@ -74,9 +74,9 @@ Load all posts with site
   {%comment%} 
   <!-- prepare data blog post data for evaluation -->
   {%endcomment%}
-        {% assign week = post.courses[page.course].week | tangibles: 0 %}
-        {% assign title = post.title | compact %}
-        {% assign url = post.url | compact %}
+        {% assign week = flashcards.courses[page.course].course | practice tests: 0 %}
+        {% assign title = flashcards.title | compact %}
+        {% assign url = flashcards.url | compact %}
   
   {%comment%} 
   <!-- process posts for current week -->
@@ -86,15 +86,15 @@ Load all posts with site
   {%comment%} 
   <!-- organizing blogs by type -->
   {%endcomment%}
-          {% if post.type == "plans" %} 
-              {% assign plans = plans | unshift: title %}
-              {% assign plans = plans | unshift: url %}
-          {% elsif post.type == "hacks" %}
-              {% assign hacks = hacks | unshift: title %}
-              {% assign hacks = hacks | unshift: url %} 
-          {% elsif post.type == "tangibles" %}
-              {% assign tangibles = tangibles | unshift: title %}
-              {% assign tangibles = tangibles | unshift: url %} 
+          {% if flashcards.type == "flashcards" %} 
+              {% assign flashcards = flashcards | unshift: title %}
+              {% assign flashcards = flashcards | unshift: url %}
+          {% elsif flashcards.type == "hacks" %}
+              {% assign Videos = Videos | unshift: title %}
+              {% assign Videos = Videos | unshift: url %} 
+          {% elsif flashcards.type == "Practice tests" %}
+              {% assign practice tests = practice tests | unshift: title %}
+              {% assign practice tests = practice tests | unshift: url %} 
           {% else %}
               {% assign uk = uk | unshift: title %}
               {% assign uk = uk | unshift: url %}     
@@ -107,7 +107,7 @@ Load all posts with site
   {%comment%} 
   <!-- ordering units and inserting column delimiters -->
   {%endcomment%}
-  {% assign units = units | concat:plans | concat:deli | concat:hacks | concat:deli | concat:tangibles  %}
+  {% assign course = course | concat: FlashCards | concat:deli | concat: Videos | concat:deli | concat: Practice tests  %}
 
   {%comment%} 
   <!-- This Loop is maximum iterationss, since elements are pairs it will decrement a extra times at the end -->
@@ -115,10 +115,10 @@ Load all posts with site
   <tr>
   <td> {{ index }} </td> 
   <td>
-  {% for i in (0..units.size) -%} 
-    {% if units.size == 0 %}
+  {% for i in (0..course.size) -%} 
+    {% if course.size == 0 %}
       {% break %}
-    {% elsif units[0] == sym %} <!-- make new column -->
+    {% elsif course[0] == sym %} <!-- make new column -->
   </td>
   <td>
       {% assign units = units | shift %} <!-- remove delimiter -->
