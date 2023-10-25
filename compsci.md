@@ -1,6 +1,6 @@
 ---
 layout: schedule
 title: Resources for courses
-units: "Course list"
+units: "For Each Course"
 course: compsci
 ---
