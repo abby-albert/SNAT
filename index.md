@@ -1,7 +1,6 @@
 ## ✧STUDY BUDDY✧
 ![Alt text](image-1.png){:height="500px" width="750px"}
 
-<<<<<<< HEAD
 
 
 <!DOCTYPE html>
@@ -18,7 +17,8 @@
     </div>
 </body>
 </html>
-=======
+
+
 ---
 layout: default
 title: Student Blog
@@ -70,4 +70,3 @@ We aim to create a "study buddy" for our passion project this year. As students 
 | 10/25| Create code for making flashcards, organize it based on subject, and input guideline basics for each subject. Ex. for calc, add flashcards of the basic derivatives of trig functions. For che,: add in solubility rules. We can also consider adding in AI.|
 |11/1 |Do a final run-through of the study buddy to make sure everything is running smootly and nothing is glitching. If possible, add a video on the homepage about us. We can add an ad that shows how to use the study buddy and create a user-friendly guide.  |
 
->>>>>>> 7490db1e350a599f99c0dd597a12e242a21c731c
