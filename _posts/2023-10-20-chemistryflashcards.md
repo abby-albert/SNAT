@@ -1,13 +1,4 @@
----
-toc: false
-comments: true
-layout: post
-title: chemistry flashcards
-description: flashcards for ap chem
-type: plans
-courses: { compsci: {week: 0} }
-permalink: /plans/week3
----
+c
 
 <!DOCTYPE html>
 <html lang="en">
