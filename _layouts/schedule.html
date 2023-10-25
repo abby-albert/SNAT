@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -55,13 +56,15 @@ Load all posts with site
   -->
   {%endcomment%}
 
+  {% assign units = null | compact %}  
+  {% assign sym = "|||" %} 
+  {% assign deli = sym | compact %} 
+
   {% for index in (start..end) -%}
     {% assign plans = null | compact %}
     {% assign hacks = null | compact %}
     {% assign tangibles = null | compact %}
-    {% assign units = null | compact %}  
-    {% assign sym = "|||" %} 
-    {% assign deli = sym | compact %} 
+
 
   {%comment%} 
   <!-- looping through all posts -->
@@ -108,10 +111,10 @@ Load all posts with site
   {% assign units = units | concat:plans | concat:deli | concat:hacks | concat:deli | concat:tangibles  %}
 
   {%comment%} 
-  <!-- This Loop is maximum iterations, since elements are pairs it will decrement an extra time at the end -->
+  <!-- This Loop is maximum iterationss, since elements are pairs it will decrement a extra times at the end -->
   {%endcomment%}
   <tr>
-  <td> {{ unitData.title }} </td> 
+  <td> {{ index }} </td> 
   <td>
   {% for i in (0..units.size) -%} 
     {% if units.size == 0 %}
@@ -122,7 +125,7 @@ Load all posts with site
       {% assign units = units | shift %} <!-- remove delimiter -->
     {% else %} <!-- make a link in the column -->
       - <a href="{{site.baseurl}}/{{units[0]}}">{{units[1]}}</a> <br/> 
-      {% assign units = units | shift | shift %} <!-- remove title and URL -->
+      {% assign units = units | shift | shift %} <!-- remove title and url -->
     {% endif %}
   {% endfor %}
   </td>
