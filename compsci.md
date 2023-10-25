@@ -1,6 +1,6 @@
 ---
 layout: schedule
-title: Study Buddy
-units: "s in Chemistry,s in Calculus,s in Biology,s in Computer Science"
+title: Resources for courses
+units: "Course list"
 course: compsci
 ---

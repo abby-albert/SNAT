@@ -17,6 +17,8 @@
 </body>
 </html>
 
+
+
 ## SNAT Blog
 Our names are Abby, Nuper, Sreeja, and Tanvi. This is about our journey through our pasion project. 
 

@@ -1,4 +1,13 @@
-c
+---
+toc: false
+comments: true
+layout: post
+title: Chem flashcards
+description: flashcards for chem
+type: plans
+courses: { compsci: {week: 1} }
+permalink: /plans/week3
+---
 
 <!DOCTYPE html>
 <html lang="en">
