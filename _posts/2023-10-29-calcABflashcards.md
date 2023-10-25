@@ -2,10 +2,10 @@
 toc: false
 comments: true
 layout: post
-title: flashcards
+title: Calc AB flashcards
 description: flashcards for calc AB
 type: plans
-courses: { compsci, Units in Calculus: {week: 0} }
+courses: { compsci: {week: 0} }
 permalink: /plans/week3
 ---
 
