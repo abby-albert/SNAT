@@ -1,8 +1,6 @@
 ## ✧STUDY BUDDY✧
 ![Alt text](image-1.png){:height="500px" width="750px"}
 
-<<<<<<< HEAD
-
 
 <!DOCTYPE html>
 <html>
@@ -19,33 +17,6 @@
 </body>
 </html>
 
-
-=======
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-    body {
-        background-color: lightblue;
-    }
-</style>
-</head>
-<body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
-=======
->>>>>>> e1e4e2c928f6d19fdfd116323005be9aa18ca279
----
-layout: default
-title: Student Blog
----
-
-<<<<<<< HEAD
 ## SNAT Blog
 Our names are Abby, Nuper, Sreeja, and Tanvi. This is about our journey through our pasion project. 
 
@@ -90,5 +61,3 @@ We aim to create a "study buddy" for our passion project this year. As students 
 |10/18 |Create the backend code for the inputting of schedules and the code so that it will send notifications and reminders |
 | 10/25| Create code for making flashcards, organize it based on subject, and input guideline basics for each subject. Ex. for calc, add flashcards of the basic derivatives of trig functions. For che,: add in solubility rules. We can also consider adding in AI.|
 |11/1 |Do a final run-through of the study buddy to make sure everything is running smootly and nothing is glitching. If possible, add a video on the homepage about us. We can add an ad that shows how to use the study buddy and create a user-friendly guide.  |
-
->>>>>>> 7490db1e350a599f99c0dd597a12e242a21c731c
