@@ -1,6 +1,6 @@
 ---
 layout: schedule
-title: Resources for courses
-units: " For Each Course"
+title: Study Buddy tools
+units: " AP Chemistry, AP Calc AB, AP Biology, AP Computer Science Prinicpals"
 course: compsci
 ---
