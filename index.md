@@ -1,4 +1,3 @@
-This project is a website that will help students with their school life. It features the weather, scheduals, calender, flashcards, and AI. The weather will help students decide what to wear during the day. The scheduals help students organize their time to get everthing done. The calender is to help students stay ontop of their tests and important events in their life. Lastly, the flashcards and AI are there to help students who are struggling with the material that they are learinging in school. The goal is for students lives to become easier so they can enjoy school. 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -65,7 +64,7 @@ This project is a website that will help students with their school life. It fea
         <p>Write a brief and professional description about yourself here.</p>
     </section>
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <p>&copy; 2023 Sreeja, Nuper, Abby, Tanvi</p>
     </footer>
 </body>
 </html>
