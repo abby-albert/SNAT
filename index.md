@@ -59,10 +59,6 @@
         <a href="#">Contact</a>
     </nav>
     <section>
-        <h2>About Me</h2>
-        <p>Write a brief and professional description about yourself here.</p>
-    </section>
-    <footer>
         <p>&copy; 2023 Sreeja, Nuper, Abby, Tanvi</p>
     </footer>
 </body>
