@@ -59,7 +59,7 @@
         <a href="#">Contact</a>
     </nav>
     <section>
-        <p>&copy; 2023 Sreeja, Nuper, Abby, Tanvi</p>
+        <p>&copy; 2023 Sreeja, Nupur, Abby, Tanvi</p>
     </footer>
 </body>
 </html>

@@ -1,27 +1,24 @@
+<!-- frontend/index.html -->
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Frontend App</title>
+    <title>Frontend-Backend Example</title>
 </head>
 <body>
-    <h1>Frontend App</h1>
+    <h1>Frontend-Backend Example</h1>
+    
     <div id="data"></div>
+    
     <script>
-        // Function to make a GET request to the backend API
-        function fetchData() {
-            fetch('/api/get_data')
-                .then(response => response.json())
-                .then(data => {
-                    // Update the "data" element with the API response
-                    document.getElementById('data').textContent = data.message;
-                })
-                .catch(error => {
-                    console.error('API request error:', error);
-                });
-        }
-
-        // Call the fetchData function when the page loads
-        window.addEventListener('load', fetchData);
+        // JavaScript to make a GET request to the backend API
+        fetch('/api/get_data')
+            .then(response => response.json())
+            .then(data => {
+                // Display data from the API on the webpage
+                document.getElementById('data').innerText = 'Data from Backend: ' + data.message;
+            })
+            .catch(error => console.error(error));
     </script>
 </body>
 </html>
