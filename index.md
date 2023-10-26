@@ -1,18 +1,71 @@
+## ✧Pro Student Pal✧
+This project is a website that will help students with their school life. It features the weather, scheduals, calender, flashcards, and AI. The weather will help students decide what to wear during the day. The scheduals help students organize their time to get everthing done. The calender is to help students stay ontop of their tests and important events in their life. Lastly, the flashcards and AI are there to help students who are struggling with the material that they are learinging in school. The goal is for students lives to become easier so they can enjoy school. 
 
----
-layout: default
-title: Student Blog
----
-
-
-## SNAT Blog
-Our names are Abby, Nuper, Sreeja, and Tanvi. This is about our journey through our pasion project. 
-
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
-
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Professional Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name or Logo</h1>
+        <p>Professional Tagline</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>About Me</h2>
+        <p>Write a brief and professional description about yourself here.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+</body>
+</html>
