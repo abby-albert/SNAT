@@ -6,6 +6,7 @@ title: Calc AB flashcards
 description: flashcards for calc AB
 type: plans
 courses: { compsci: {week: 0} }
+unit: AP Calc AB
 permalink: /plans/week3
 ---
 
