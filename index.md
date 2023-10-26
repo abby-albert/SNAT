@@ -9,14 +9,3 @@
 
 ## AI help
 [AI Help](http://127.0.0.1:4200/student/help)
-
-<html>
-<head>
-    <style>
-        .header {
-            background-color: #45afd8e1; /* White background */
-            color: #ff99cc; /* Light pink font color */
-            padding: 20px; /* Add some padding for spacing */
-            text-align: center; /* Center-align the text */
-        }
-    </style>
