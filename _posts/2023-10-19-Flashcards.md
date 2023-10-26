@@ -1,3 +1,12 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2e6ff; /* Light Purple background color */
+    }
+    /* ... (rest of your CSS styles) ... */
+</style>
 
 What is the deraitive of 63?
 
