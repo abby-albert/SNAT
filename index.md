@@ -44,6 +44,16 @@
             bottom: 0;
             width: 100%;
         }
+        <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2e6ff; /* Light Purple background color */
+    }
+    
+</style>
+
     </style>
 </head>
 <body>
