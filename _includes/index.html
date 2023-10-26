@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frontend App</title>
+</head>
+<body>
+    <h1>Frontend App</h1>
+    <div id="data"></div>
+    <script>
+        // Function to make a GET request to the backend API
+        function fetchData() {
+            fetch('/api/get_data')
+                .then(response => response.json())
+                .then(data => {
+                    // Update the "data" element with the API response
+                    document.getElementById('data').textContent = data.message;
+                })
+                .catch(error => {
+                    console.error('API request error:', error);
+                });
+        }
+
+        // Call the fetchData function when the page loads
+        window.addEventListener('load', fetchData);
+    </script>
+</body>
+</html>
