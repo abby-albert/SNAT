@@ -9,7 +9,6 @@ courses: { compsci: {week: 1} }
 permalink: /plans/week3
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
