@@ -8,7 +8,7 @@
 
 
 ## AI help
-[AI Help](http://127.0.0.1:4200/student/help)
+[AI Help](https://chat.openai.com/)
 
 <html>
 <head>
