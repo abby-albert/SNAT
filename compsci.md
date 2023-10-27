@@ -1,6 +1,51 @@
----
-layout: schedule
-title: Study Buddy
-units: "s in Chemistry,s in Calculus,s in Biology,s in Computer Science"
-course: compsci
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            width: 200px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <a href="http://127.0.0.1:4200/student/2023/10/19/Flashcards.html">Card 1</a>
+        <p>Description for Card 1</p>
+    </div>
+    <div class="card">
+        <a href="page2.html">Card 2</a>
+        <p>Description for Card 2</p>
+    </div>
+    <div class="card">
+        <a href="page3.html">Card 3</a>
+        <p>Description for Card 3</p>
+    </div>
+</body>
+</html>
