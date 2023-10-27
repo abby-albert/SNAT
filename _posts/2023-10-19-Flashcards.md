@@ -18,7 +18,7 @@ courses: { compsci: {week: 0} }
     /* ... (rest of your CSS styles) ... */
 </style>
 
-What is the deraitive of 63?
+What is the derivative of 63?
 
 A) 1
 B) 63
@@ -31,27 +31,27 @@ The correct answer is C) 0
 </details>
 
 ## Question 2
-What is the meaning of a synomym?
-A) opposite
-B) same
-C) nuetral
+What is the domain of the limit of x as x aproches infinity?
+A) infinity
+B) neg infinity
+C) 1
 D) none of the above
 
 <details>
 <summary>Click to reveal the correct answer</summary>
-The correct answer is B) same
+The correct answer is A) infinity
 </details>
 
 ## Question 3
-What is the symbol of helium?
+What is the derivative of sin x?
 
-A) He
-B) H
-C) He2
-D) H2
+A) sin x
+B) cos x
+C) -cos x
+D) tan x
 
 <details>
 <summary>Click to reveal the correct answer</summary>
-The correct answer is A) He
+The correct answer is B) cos x
 </details>
     
