@@ -1,12 +1,11 @@
 ---
-toc: false
+toc: true
 comments: true
 layout: post
 title: Flashcards
 description: calc flashcards
-type: plans
+type: flashcards
 courses: { compsci: {week: 0} }
-permalink: /plans/week3
 ---
 
 <style>
