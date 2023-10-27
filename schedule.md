@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<style>
+    body {
+      background-color: lavender;
+    }
+  </style>
+  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
