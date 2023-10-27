@@ -1,3 +1,14 @@
+---
+toc: false
+comments: true
+layout: post
+title: Flashcards
+description: calc flashcards
+type: plans
+courses: { compsci: {week: 0} }
+permalink: /plans/week3
+---
+
 <style>
     body {
         font-family: Arial, sans-serif;
