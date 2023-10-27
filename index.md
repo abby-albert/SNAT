@@ -53,11 +53,10 @@
     }
     
 </style>
-
-    </style>
 </head>
 <body>
     <header>
+    <img src="" width="100" height="200">
         <h1>✧Pro Student Pal✧</h1>
         <p>This project is a website that will help students with their school life. It features the weather, scheduals, calender, flashcards, and AI. The weather will help students decide what to wear during the day. The scheduals help students organize their time to get everthing done. The calender is to help students stay ontop of their tests and important events in their life. Lastly, the flashcards and AI are there to help students who are struggling with the material that they are learinging in school. The goal is for students lives to become easier so they can enjoy school. 
 </p>
@@ -70,6 +69,3 @@
     </nav>
     <section>
         <p>&copy; 2023 Sreeja, Nupur, Abby, Tanvi</p>
-    </footer>
-</body>
-</html>
