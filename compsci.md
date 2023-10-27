@@ -29,7 +29,7 @@
         }
         a {
             text-decoration: none;
-            color: #333;
+            color: #ADD8E6;
             font-weight: bold;
         }
     </style>
@@ -40,7 +40,7 @@
         <p>Flashcards to help student with the basics of AP Calc AB</p>
     </div>
     <div class="card">
-        <a href="page2.html">AP Chemistry</a>
+        <a href="http://127.0.0.1:4200/student/2023/10/27/chemFlashcards.html">AP Chemistry</a>
         <p>Flashcards to help students with the material in AP Chemistry</p>
     </div>
     <div class="card">
