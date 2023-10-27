@@ -1,3 +1,13 @@
+---
+toc: true
+comments: true
+layout: post
+title: Flashcards
+description: calc flashcards
+type: flashcards
+courses: { compsci: {week: 0} }
+---
+
 <style>
     body {
         font-family: Arial, sans-serif;
