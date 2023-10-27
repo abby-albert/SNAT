@@ -29,7 +29,7 @@
         }
         a {
             text-decoration: none;
-            color: #333;
+            color: #ADD8E6;
             font-weight: bold;
         }
     </style>
