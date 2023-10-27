@@ -7,51 +7,63 @@ description: calc flashcards
 type: flashcards
 courses: { compsci: {week: 0} }
 ---
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2e6ff; /* Light Purple background color */
+        }
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f2e6ff; /* Light Purple background color */
-    }
-    /* ... (rest of your CSS styles) ... */
-</style>
+        /* Add more CSS styles here for your website */
+    </style>
+</head>
+<body>
+    <div class="question">
+        <h2>Question 1</h2>
+        <p>What is the derivative of 63?</p>
+        <ul>
+            <li>A) 1</li>
+            <li>B) 63</li>
+            <li>C) 0</li>
+            <li>D) indeterminate</li>
+        </ul>
+        <details>
+            <summary>Click to reveal the correct answer</summary>
+            The correct answer is C) 0
+        </details>
+    </div>
 
-What is the derivative of 63?
+    <div class="question">
+        <h2>Question 2</h2>
+        <p>What is the domain of the limit of x as x approaches infinity?</p>
+        <ul>
+            <li>A) infinity</li>
+            <li>B) negative infinity</li>
+            <li>C) 1</li>
+            <li>D) none of the above</li>
+        </ul>
+        <details>
+            <summary>Click to reveal the correct answer</summary>
+            The correct answer is A) infinity
+        </details>
+    </div>
 
-A) 1
-B) 63
-C) 0
-D) indeterminate
-
-<details>
-<summary>Click to reveal the correct answer</summary>
-The correct answer is C) 0
-</details>
-
-## Question 2
-What is the domain of the limit of x as x aproches infinity?
-A) infinity
-B) neg infinity
-C) 1
-D) none of the above
-
-<details>
-<summary>Click to reveal the correct answer</summary>
-The correct answer is A) infinity
-</details>
-
-## Question 3
-What is the derivative of sin x?
-
-A) sin x
-B) cos x
-C) -cos x
-D) tan x
-
-<details>
-<summary>Click to reveal the correct answer</summary>
-The correct answer is B) cos x
-</details>
-    
+    <div class="question">
+        <h2>Question 3</h2>
+        <p>What is the derivative of sin x?</p>
+        <ul>
+            <li>A) sin x</li>
+            <li>B) cos x</li>
+            <li>C) -cos x</li>
+            <li>D) tan x</li>
+        </ul>
+        <details>
+            <summary>Click to reveal the correct answer</summary>
+            The correct answer is B) cos x
+        </details>
+    </div>
+</body>
+</html>
