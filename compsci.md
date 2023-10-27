@@ -40,12 +40,16 @@
         <p>Flashcards to help student with the basics of AP Calc AB</p>
     </div>
     <div class="card">
-        <a href="page2.html">Card 2</a>
-        <p>Description for Card 2</p>
+        <a href="page2.html">AP Chemistry</a>
+        <p>Flashcards to help students with the material in AP Chemistry</p>
     </div>
     <div class="card">
-        <a href="page3.html">Card 3</a>
-        <p>Description for Card 3</p>
+        <a href="page3.html">AP Biology</a>
+        <p>Flashcards to help students with the material in AP Biology</p>
+    </div>
+        <div class="card">
+        <a href="page3.html">AP Computer Science Principals</a>
+        <p>Flashcards to help students with the material in AP CSP</p>
     </div>
 </body>
 </html>
