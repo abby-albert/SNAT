@@ -1,29 +1,32 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Theme with Horizontal Tabs</title>
+    <title>Your Professional Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
         header {
             background-color: #333;
             color: #fff;
+            padding: 10px 0;
             text-align: center;
-            padding: 15px 0;
         }
         nav {
             background-color: #f4f4f4;
             text-align: center;
+            padding: 10px 0;
         }
         nav a {
             text-decoration: none;
-            color: #333;
-            padding: 15px 20px;
+            padding: 10px 20px;
             display: inline-block;
+            color: #333;
             font-weight: bold;
         }
         nav a:hover {
@@ -32,38 +35,46 @@
         section {
             padding: 20px;
         }
-    </style>
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2e6ff; /* Light Purple background color */
+    }
+
+</style>
 </head>
 <body>
-    <header>
+    <header>     
         <h1>✧Pro Student Pal✧</h1>
-    </p>
+        <p>This project is a website that will help students with their school life. It features the weather, scheduals, calender, flashcards, and AI. The weather will help students decide what to wear during the day. The scheduals help students organize their time to get everthing done. The calender is to help students stay ontop of their tests and important events in their life. Lastly, the flashcards and AI are there to help students who are struggling with the material that they are learinging in school. The goal is for students lives to become easier so they can enjoy school. 
+</p>
 <img src="https://github.com/nighthawkcoders/student/assets/128272483/188a8082-c90b-4b96-bcaa-76c12a7590f5"
 width="300"
 height="500"
 />
     </header>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
     </nav>
-    <section id="home">
-        <h2>Home Section</h2>
-        <p>Welcome to the home section of your professional website.</p>
-    </section>
-    <section id="about">
-        <h2>About Section</h2>
-        <p>This is the about section where you can introduce yourself or your company.</p>
-    </section>
-    <section id="services">
-        <h2>Services Section</h2>
-        <p>Here, you can showcase the services you provide to your clients.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact Section</h2>
-        <p>Feel free to reach out to us using the contact details provided.</p>
-    </section>
-</body>
-</html>
+    <section>
+        <p>&copy; 2023 Sreeja, Nupur, Abby, Tanvi</p>
+
+<style>
+    body {
+      background-color: lightpink;
+    }
+  </style>
