@@ -48,7 +48,7 @@
         <p>Flashcards to help students with the material in AP Biology</p>
     </div>
         <div class="card">
-        <a href="page3.html">AP Computer Science Principals</a>
+        <a href="http://127.0.0.1:4200/student/2023/10/27/cspflash.html">AP Computer Science Principals</a>
         <p>Flashcards to help students with the material in AP CSP</p>
     </div>
 </body>
