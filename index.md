@@ -15,11 +15,11 @@
             background-color: #333;
             color: #fff;
             padding: 10px 0;
-            text-align: left;
+            text-align: center;
         }
         nav {
             background-color: #f4f4f4;
-            text-align: center;
+            text-align: left;
             padding: 10px 0;
         }
         nav a {
@@ -38,7 +38,7 @@
         footer {
             background-color: #333;
             color: #fff;
-            text-align: center;
+            text-align: left;
             padding: 10px 0;
             position: absolute;
             bottom: 0;
