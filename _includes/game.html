@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guess the Number Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Guess the Number Game</h1>
+  <p>Guess a number between 1 and 100:</p>
+  <input type="text" id="guessInput">
+  <input type="submit" value="Submit Guess" id="guessSubmit">
+  <p id="message"></p>
+  <p>Guesses left: <span id="guessesLeft">10</span></p>
+
+  <script>
+    // JavaScript for the game logic
+    const randomNumber = Math.floor(Math.random() * 100) + 1;
+    let guesses = 10;
+    let gameOver = false;
+
+    document.getElementById('guessSubmit').addEventListener('click', checkGuess);
+
+    function checkGuess() {
+      if (gameOver) {
+        return;
+      }
+
+      const guess = parseInt(document.getElementById('guessInput').value);
+      const message = document.getElementById('message');
+      const guessesLeft = document.getElementById('guessesLeft');
+
+      if (isNaN(guess) || guess < 1 || guess > 100) {
+        message.textContent = 'Please enter a valid number between 1 and 100.';
+      } else {
+        guesses--;
+        guessesLeft.textContent = guesses;
+
+        if (guess === randomNumber) {
+          message.textContent = `Congratulations! You guessed the correct number: ${randomNumber}.`;
+          gameOver = true;
+        } else if (guesses === 0) {
+          message.textContent = `Game over! The correct number was ${randomNumber}.`;
+          gameOver = true;
+        } else if (guess < randomNumber) {
+          message.textContent = 'Try higher.';
+        } else {
+          message.textContent = 'Try lower.';
+        }
+      }
+    }
+  </script>
+</body>
+</html>
