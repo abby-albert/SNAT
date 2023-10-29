@@ -41,7 +41,7 @@
 </head>
 <body>
     <div class="card">
-        <a href="http://127.0.0.1:4200/student/2023/10/19/Flashcards.html">Ap Calc AB</a>
+        <a href="http://127.0.0.1:4200/student/2023/10/19/calcFlashcards.html">Ap Calc AB</a>
         <p>Flashcards to help student with the basics of AP Calc AB</p>
     </div>
     <div class="card">
