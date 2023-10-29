@@ -78,3 +78,9 @@ height="500"
       background-color: lightpink;
     }
   </style>
+  
+  <body>
+    <div class="card">
+        <a href="http://127.0.0.1:4200/student/2023/10/27/aboutus.html">About us</a>
+        <p>click here</p>
+    </div>
