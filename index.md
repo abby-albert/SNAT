@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000080;
+            background-color: #191970;
         header {
             background-color: #F5F5DC;
             color: #fff;
@@ -17,7 +17,7 @@
             text-align: center;
         }
         nav {
-            background-color: #000080;
+            background-color: #191970;
             text-align: left;
             padding: 10px 0;
         }
@@ -25,7 +25,7 @@
             text-decoration: none;
             padding: 10px 20px;
             display: inline-block;
-            color: #333;
+            color: #191970;
             font-weight: bold;
         }
         nav a:hover {
@@ -48,7 +48,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #000080; /* Light Purple background color */
+        background-color: #191970; /* Light Purple background color */
     }
 
 </style>
