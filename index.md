@@ -6,6 +6,7 @@
     border: 1px solid #000; /* You can adjust the border style and color as needed */
     margin: 5px;
     text-decoration: none;
+    color: white
   }
 </style>
 
@@ -63,9 +64,11 @@
     <header>
         <h1>✧Pro Student Pal✧</h1>
         <p>This project is a website that will help students with their school life. It features the weather, schedules, calendar, flashcards, and AI. The weather will help students decide what to wear during the day. The schedules help students organize their time to get everything done. The calendar is to help students stay on top of their tests and important events in their life. Lastly, the flashcards and AI are there to help students who are struggling with the material that they are learning in school. The goal is for students' lives to become easier so they can enjoy school.</p>
+        
 
         
 <html>
+
 <head>
 <style>
   /* Define the Grateful font using a font-face rule */
