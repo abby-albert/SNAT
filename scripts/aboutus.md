@@ -1,46 +1,60 @@
-<html>
+
+<style>
+    body {
+      background-color: light pink;
+    }
+  </style>
+  <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Cards</title>
     <style>
-        .team-member {
-            text-align: center;
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            width: 200px;
+            padding: 20px;
             margin: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
         }
-        .team-member img {
-            max-width: 100%;
-            border-radius: 50%;
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
-        .team-member p {
-            margin: 10px 0;
+        a {
+            text-decoration: none;
+            color: #ADD8E6;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>About Us</h1>
-
-    <div class="tanvi">
-        <img src="vscode-local:/c%253A/Users/tanvi/Downloads/aboutus%2520%25283%2529" alt="Team Member 1">
-        <h2>Team Member 1</h2>
-        <p>Description of Team Member 1 goes here. This could include their role, background, and expertise.</p>
+    <div class="card">
+        <a href="http://127.0.0.1:4200/student/2023/10/19/calcFlashcards.html">Ap Calc AB</a>
+        <p>Flashcards to help student with the basics of AP Calc AB</p>
     </div>
-
-    <div class="team-member">
-        <img src="team-member2.jpg" alt="Team Member 2">
-        <h2>Team Member 2</h2>
-        <p>Description of Team Member 2 goes here. This could include their role, background, and expertise.</p>
+    <div class="card">
+        <a href="http://127.0.0.1:4200/student/2023/10/27/chemFlashcards.html">AP Chemistry</a>
+        <p>Flashcards to help students with the material in AP Chemistry</p>
     </div>
-
-    <div class="team-member">
-        <img src="team-member3.jpg" alt="Team Member 3">
-        <h2>Team Member 3</h2>
-        <p>Description of Team Member 3 goes here. This could include their role, background, and expertise.</p>
+    <div class="card">
+        <a href="http://127.0.0.1:4200/student/2023/10/27/bioflahsa.html">AP Biology</a>
+        <p>Flashcards to help students with the material in AP Biology</p>
     </div>
-
-    <div class="team-member">
-        <img src="team-member4.jpg" alt="Team Member 4">
-        <h2>Team Member 4</h2>
-        <p>Description of Team Member 4 goes here. This could include their role, background, and expertise.</p>
+        <div class="card">
+        <a href="http://127.0.0.1:4200/student/2023/10/27/cspflash.html">AP Computer Science Principals</a>
+        <p>Flashcards to help students with the material in AP CSP</p>
     </div>
 </body>
 </html>
