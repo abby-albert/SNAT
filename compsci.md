@@ -1,5 +1,10 @@
 
-<html lang="en">
+<style>
+    body {
+      background-color: light pink;
+    }
+  </style>
+  <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +41,7 @@
 </head>
 <body>
     <div class="card">
-        <a href="http://127.0.0.1:4200/student/2023/10/19/Flashcards.html">Ap Calc AB</a>
+        <a href="http://127.0.0.1:4200/student/2023/10/19/calcFlashcards.html">Ap Calc AB</a>
         <p>Flashcards to help student with the basics of AP Calc AB</p>
     </div>
     <div class="card">
@@ -48,7 +53,7 @@
         <p>Flashcards to help students with the material in AP Biology</p>
     </div>
         <div class="card">
-        <a href="page3.html">AP Computer Science Principals</a>
+        <a href="http://127.0.0.1:4200/student/2023/10/27/cspflash.html">AP Computer Science Principals</a>
         <p>Flashcards to help students with the material in AP CSP</p>
     </div>
 </body>

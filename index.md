@@ -19,7 +19,7 @@
         }
         nav {
             background-color: #f4f4f4;
-            text-align: center;
+            text-align: left;
             padding: 10px 0;
         }
         nav a {
@@ -38,7 +38,7 @@
         footer {
             background-color: #333;
             color: #fff;
-            text-align: center;
+            text-align: left;
             padding: 10px 0;
             position: absolute;
             bottom: 0;
@@ -78,3 +78,9 @@ height="500"
       background-color: lightpink;
     }
   </style>
+  
+  <body>
+    <div class="card">
+        <a href="http://127.0.0.1:4200/student/2023/10/27/aboutus.html">About us</a>
+        <p>click here</p>
+    </div>
