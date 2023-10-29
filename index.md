@@ -9,16 +9,15 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
+            background-color: #000080;
         header {
-            background-color: #333;
+            background-color: #F5F5DC;
             color: #fff;
             padding: 10px 0;
             text-align: center;
         }
         nav {
-            background-color: #f4f4f4;
+            background-color: #000080;
             text-align: left;
             padding: 10px 0;
         }
@@ -36,7 +35,7 @@
             padding: 20px;
         }
         footer {
-            background-color: #333;
+            background-color: #F5F5DC;
             color: #fff;
             text-align: left;
             padding: 10px 0;
@@ -49,7 +48,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f2e6ff; /* Light Purple background color */
+        background-color: #000080; /* Light Purple background color */
     }
 
 </style>
