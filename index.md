@@ -46,10 +46,10 @@
         <img src="https://github.com/nighthawkcoders/student/assets/128272483/bc2ee0a0-66ef-4b99-9cab-ec4d8a17b1d7" width="500" height="500" />
     </header>
     <nav>
-        <a href="#" class="button">Home</a>
-        <a href="#" class="button">About</a>
-        <a href="#" class="button">Portfolio</a>
-        <a href="#" class="button">Contact</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
     </nav>
     <section>
         <p>&copy; 2023 Sreeja, Nupur, Abby, Tanvi</p>
