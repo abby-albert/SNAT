@@ -65,9 +65,9 @@ height="500"
 />
     </header>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
+        <a href="http://127.0.0.1:4200/student/">Home</a>
+        <a href="http://127.0.0.1:4200/student/2023/10/27/aboutus.html">About</a>
+        <a href="http://127.0.0.1:4200/student/compsci">flashcards</a>
         <a href="#">Contact</a>
     </nav>
     <section>
