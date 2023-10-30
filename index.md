@@ -9,16 +9,15 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
+            background-color: #191970;
         header {
-            background-color: #333;
+            background-color: #F5F5DC;
             color: #fff;
             padding: 10px 0;
             text-align: center;
         }
         nav {
-            background-color: #f4f4f4;
+            background-color: #191970;
             text-align: left;
             padding: 10px 0;
         }
@@ -26,7 +25,7 @@
             text-decoration: none;
             padding: 10px 20px;
             display: inline-block;
-            color: #333;
+            color: #191970;
             font-weight: bold;
         }
         nav a:hover {
@@ -36,7 +35,7 @@
             padding: 20px;
         }
         footer {
-            background-color: #333;
+            background-color: #F5F5DC;
             color: #fff;
             text-align: left;
             padding: 10px 0;
@@ -49,7 +48,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f2e6ff; /* Light Purple background color */
+        background-color: #191970; /* Light Purple background color */
     }
 
 </style>
