@@ -111,7 +111,7 @@ courses: { compsci: {week: 0} }
 
         <div class="question-container">
             <div class="question">
-                <h2>Biology Question 3</h2>
+                <h2> Calc AB question 3</h2>
                 <p>what is the inverse of -cos?</p>
                 <ul>
             <li>A) sin x</li>
