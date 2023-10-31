@@ -18,7 +18,7 @@
   <a href="{{site.baseurl}}/compsci">Flashcards</a>
   <a href="{{site.baseurl}}/app">grammer bot</a>
   <a href="{{site.baseurl}}/calc">calculator</a>
-  <a href="{{site.baseurl}}/geography">weather</a>
+  <a href="http://127.0.0.1:4200/student/2023/10/25/Weather.html">weather</a>
 </nav>
 
 
