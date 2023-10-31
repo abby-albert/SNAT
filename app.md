@@ -76,8 +76,6 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the Light Green Background</h1>
-        <p>This is a simple demonstration of a light green background.</p>
-    </div>
+</div>
 </body>
 </html>
