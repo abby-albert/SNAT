@@ -1,20 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Frontend App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Checker</title>
+    <style>
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>Frontend App</h1>
-    <div id="data"></div>
+    <h1>Grammar Checker</h1>
+    <textarea id="textInput" placeholder="Enter text here..."></textarea>
+    <br>
+    <button onclick="checkGrammar()">Check Grammar</button>
+    <h2>Grammar Errors:</h2>
+    <ul id="errorList"></ul>
     <script>
-        fetch('/api/get_data')
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('data').textContent = data.message;
+        function checkGrammar() {
+            const textToCheck = document.getElementById('textInput').value;
+            // Send a POST request to the grammar checking API
+            fetch('http://localhost:8086/api/grammar/grammar-check', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ text: textToCheck }),
             })
-            .catch(error => {
-                console.error('API request error:', error);
-            });
+            .then(response => response.json())
+            .then(errors => {
+                // Display grammar errors on the page
+                const errorList = document.getElementById('errorList');
+                errorList.innerHTML = '';
+                errors.forEach(error => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = error;
+                    errorList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+        }
     </script>
 </body>
 </html>
