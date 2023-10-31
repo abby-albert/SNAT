@@ -50,3 +50,31 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Green Background</title>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+</div>
+</body>
+</html>

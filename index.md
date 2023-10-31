@@ -14,8 +14,9 @@
   <a href="{{site.baseurl}}/">Home</a>
   <a href="{{site.baseurl}}/schedule">Planner</a>
   <a href="{{site.baseurl}}/blogs">School Resources</a>
-  <a href="https://chat.openai.com/">Ask AI</a>
+  <a href="http://127.0.0.1:4200/student/2023/10/30/ai.html">Ask AI</a>
   <a href="{{site.baseurl}}/compsci">Flashcards</a>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <a href="{{site.baseurl}}/game">Game</a>
   <a href="{{site.baseurl}}/calc">calculator</a>
@@ -23,16 +24,57 @@
 =======
   <a href="{{site.baseurl}}/app">grammer bot</a>
 >>>>>>> 0cbd77327792a2d5a6d2d1c2abf0c197109d4290
+=======
+  <a href="{{site.baseurl}}/app">Grammar Bot</a>
+  <a href="http://127.0.0.1:4200/student/2023/08/30/Calculator.html">Calculator</a>
+  <a href="http://127.0.0.1:4200/student/2023/10/25/Weather.html">Geography Help</a>
+  <a href="http://127.0.0.1:4200/student/2023/10/30/aboutus.html">About Us</a>
+  <a href="https://www.mathway.com/Precalculus">Math help</a>
+>>>>>>> c17548798bd6f01894fb90ed9d66ffc10a803951
 </nav>
-
-
-
 <html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navy Blue Background</title>
+    <style>
+        body {
+            background-color: navy;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .content {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>✧Pro Student Pal✧</h1>
+        <p>This project is a website that will help students with their school life. It features the weather, schedules, calendar, flashcards, and AI. The weather will help students decide what to wear during the day. The schedules help students organize their time to get everything done. The calendar is to help students stay on top of their tests and important events in their life. Lastly, the flashcards and AI are there to help students who are struggling with the material that they are learning in school. The goal is for students' lives to become easier so they can enjoy school.</p>
+        <p>![Alt text](image-7.png)<p>
+    </div>
+</body>
+</html>
 <head>
     <title>Pro Student Pal</title>
     <style>
         body {
-            background-color: #ADD8E6;
+            background-color: #02075d;
             margin: 0; /* Remove default body margin */
         }
         header {
@@ -67,15 +109,6 @@
         }
     </style>
 </head>
-<body>
-    <header>
-        <h1>✧Pro Student Pal✧</h1>
-        <p>This project is a website that will help students with their school life. It features the weather, schedules, calendar, flashcards, and AI. The weather will help students decide what to wear during the day. The schedules help students organize their time to get everything done. The calendar is to help students stay on top of their tests and important events in their life. Lastly, the flashcards and AI are there to help students who are struggling with the material that they are learning in school. The goal is for students' lives to become easier so they can enjoy school.</p>
-        
-
-        
-<html>
-
 <head>
 <style>
   /* Define the Grateful font using a font-face rule */
@@ -88,16 +121,11 @@
   
 </style>
 </head>
-
-</html>
-
-        <img src="https://github.com/nighthawkcoders/student/assets/128272483/bc2ee0a0-66ef-4b99-9cab-ec4d8a17b1d7" width="500" height="500" />
-    </header>
-    
     <section>
-        <p>&copy; 2023 Sreeja, Nupur, Abby, Tanvi</p>
+    2023 Sreeja, Nupur, Abby, Tanvi
     </section>
-</body>
 </html>
+    
+
 
  
