@@ -16,8 +16,8 @@
   <a href="{{site.baseurl}}/blogs">School Resources</a>
   <a href="http://127.0.0.1:4200/student/2023/10/30/ai.html">Ask AI</a>
   <a href="{{site.baseurl}}/compsci">Flashcards</a>
-  <a href="{{site.baseurl}}/app">grammer bot</a>
-  <a href="http://127.0.0.1:4200/student/2023/08/30/Calculator.html">calculator</a>
+  <a href="{{site.baseurl}}/app">Grammar Bot</a>
+  <a href="http://127.0.0.1:4200/student/2023/08/30/Calculator.html">Calculator</a>
   <a href="http://127.0.0.1:4200/student/2023/10/25/Weather.html">Geography Help</a>
   <a href="http://127.0.0.1:4200/student/2023/10/30/aboutus.html">About Us</a>
 </nav>
