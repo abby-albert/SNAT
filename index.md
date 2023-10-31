@@ -111,14 +111,11 @@
   
 </style>
 </head>
-
-</html>
-
-        <img src="https://github.com/nighthawkcoders/student/assets/128272483/bc2ee0a0-66ef-4b99-9cab-ec4d8a17b1d7" width="500" height="500" />
-    </header>
-    
     <section>
-        <p>&copy; 2023 Sreeja, Nupur, Abby, Tanvi</p>
+    2023 Sreeja, Nupur, Abby, Tanvi
     </section>
+</html>
+    
+
 
  
