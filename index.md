@@ -16,9 +16,13 @@
   <a href="{{site.baseurl}}/blogs">School Resources</a>
   <a href="https://chat.openai.com/">Ask AI</a>
   <a href="{{site.baseurl}}/compsci">Flashcards</a>
+<<<<<<< HEAD
   <a href="{{site.baseurl}}/game">Game</a>
   <a href="{{site.baseurl}}/calc">calculator</a>
   <a href="{{site.baseurl}}/geography">Geography Tool </a>
+=======
+  <a href="{{site.baseurl}}/app">grammer bot</a>
+>>>>>>> 0cbd77327792a2d5a6d2d1c2abf0c197109d4290
 </nav>
 
 
