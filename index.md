@@ -16,6 +16,9 @@
   <a href="{{site.baseurl}}/blogs">School Resources</a>
   <a href="https://chat.openai.com/">Ask AI</a>
   <a href="{{site.baseurl}}/compsci">Flashcards</a>
+  <a href="{{site.baseurl}}/game">Game</a>
+  <a href="{{site.baseurl}}/calc">calculator</a>
+  <a href="{{site.baseurl}}/geography">Geography Tool </a>
 </nav>
 
 
