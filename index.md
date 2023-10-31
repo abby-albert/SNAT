@@ -120,7 +120,5 @@
     <section>
         <p>&copy; 2023 Sreeja, Nupur, Abby, Tanvi</p>
     </section>
-</body>
-</html>
 
  
