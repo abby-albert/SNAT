@@ -64,7 +64,7 @@
     <title>Pro Student Pal</title>
     <style>
         body {
-            background-color: #ADD8E6;
+            background-color: #02075d;
             margin: 0; /* Remove default body margin */
         }
         header {
