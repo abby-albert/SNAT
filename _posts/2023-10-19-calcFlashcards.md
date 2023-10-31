@@ -7,7 +7,6 @@ description: calc flashcards
 type: flashcards
 courses: { compsci: {week: 0} }
 ---
----
 <html>
 <head>
     <style>
