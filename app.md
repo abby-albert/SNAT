@@ -50,3 +50,34 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Green Background</title>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Light Green Background</h1>
+        <p>This is a simple demonstration of a light green background.</p>
+    </div>
+</body>
+</html>
