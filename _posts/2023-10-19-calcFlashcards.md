@@ -77,8 +77,8 @@ courses: { compsci: {week: 0} }
     <div class="questions-grid">
         <div class="question-container">
             <div class="question">
-                <h2>Biology Question 1</h2>
-                <p>What is the powerhouse of the cell?</p>
+                <h2>Calc AB question 1</h2>
+                <p>What is the derivitive of 63?</p>
                 <ul>
             <li>A) 1</li>
             <li>B) 63</li>
@@ -87,15 +87,15 @@ courses: { compsci: {week: 0} }
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
-                    <p>The correct answer is B) Mitochondria</p>
+                    <p>The correct answer is C) O</p>
                 </details>
             </div>
         </div>
 
         <div class="question-container">
             <div class="question">
-                <h2>Biology Question 2</h2>
-                <p>Which gas do plants absorb from the atmosphere during photosynthesis?</p>
+                <h2>Calc AB question 2</h2>
+                <p>what is the limit of tangent as x approaches pi?</p>
                 <ul>
             <li>A) infinity</li>
             <li>B) negative infinity</li>
@@ -104,7 +104,7 @@ courses: { compsci: {week: 0} }
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
-                    <p>The correct answer is C) Carbon dioxide</p>
+                    <p>The correct answer is B) negative infinitry</p>
                 </details>
             </div>
         </div>
@@ -112,7 +112,7 @@ courses: { compsci: {week: 0} }
         <div class="question-container">
             <div class="question">
                 <h2>Biology Question 3</h2>
-                <p>What is the process by which organisms maintain a stable internal environment?</p>
+                <p>what is the inverse of -cos?</p>
                 <ul>
             <li>A) sin x</li>
             <li>B) cos x</li>
@@ -121,7 +121,7 @@ courses: { compsci: {week: 0} }
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
-                    <p>The correct answer is A) Homeostasis</p>
+                    <p>The correct answer is A) sin x</p>
                 </details>
             </div>
         </div>
