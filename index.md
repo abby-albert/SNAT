@@ -62,7 +62,7 @@
     <div class="content">
         <h1>✧Pro Student Pal✧</h1>
         <p>This project is a website that will help students with their school life. It features the weather, schedules, calendar, flashcards, and AI. The weather will help students decide what to wear during the day. The schedules help students organize their time to get everything done. The calendar is to help students stay on top of their tests and important events in their life. Lastly, the flashcards and AI are there to help students who are struggling with the material that they are learning in school. The goal is for students' lives to become easier so they can enjoy school.</p>
-        <p>![Alt text](image-7.png)<p>
+        
     </div>
 </body>
 </html>
@@ -106,22 +106,13 @@
     </style>
 </head>
 <head>
-<style>
-  /* Define the Grateful font using a font-face rule */
-  @font-face {
-    font-family: Grateful;
-    src: url('path-to-grateful-font.woff') format('woff');
-    /* Replace 'path-to-grateful-font.woff' with the actual path to your Grateful font file. */
-  }
 
-  
-</style>
+
 </head>
     <section>
     2023 Sreeja, Nupur, Abby, Tanvi
     </section>
 </html>
-    
-
-
- 
+ <img src="https://github.com/nighthawkcoders/student/assets/128272483/ef4ccf28-d91e-4af4-8a96-e15986f40e66"
+ width="500" height="300"
+ />
