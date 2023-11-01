@@ -16,21 +16,17 @@
   <a href="{{site.baseurl}}/blogs">School Resources</a>
   <a href="http://127.0.0.1:4200/student/2023/10/30/ai.html">Ask AI</a>
   <a href="{{site.baseurl}}/compsci">Flashcards</a>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   <a href="{{site.baseurl}}/game">Game</a>
   <a href="{{site.baseurl}}/calc">calculator</a>
   <a href="{{site.baseurl}}/geography">Geography Tool </a>
-=======
   <a href="{{site.baseurl}}/app">grammer bot</a>
->>>>>>> 0cbd77327792a2d5a6d2d1c2abf0c197109d4290
-=======
   <a href="{{site.baseurl}}/app">Grammar Bot</a>
   <a href="http://127.0.0.1:4200/student/2023/08/30/Calculator.html">Calculator</a>
   <a href="http://127.0.0.1:4200/student/2023/10/25/Weather.html">Geography Help</a>
   <a href="http://127.0.0.1:4200/student/2023/10/30/aboutus.html">About Us</a>
   <a href="https://www.mathway.com/Precalculus">Math help</a>
->>>>>>> c17548798bd6f01894fb90ed9d66ffc10a803951
+
 </nav>
 <html>
 
