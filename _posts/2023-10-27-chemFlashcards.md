@@ -2,8 +2,8 @@
 toc: true
 comments: true
 layout: post
-title: bio Flashcards
-description: bio flashcards
+title: chen Flashcards
+description: chem flashcards
 type: flashcards
 courses: { compsci: {week: 0} }
 ---
