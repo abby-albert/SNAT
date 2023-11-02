@@ -27,7 +27,7 @@
         function checkGrammar() {
             const textToCheck = document.getElementById('textInput').value;
             // Send a POST request to the grammar checking API
-            fetch('http://localhost:8086/grammar-check', {
+            fetch('http://localhost:8086/app', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -72,7 +72,7 @@
             color: #555;
         }
     </style>
-</head>
+
 <body>
     <div class="container">
 </div>
