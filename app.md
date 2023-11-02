@@ -27,7 +27,7 @@
         function checkGrammar() {
             const textToCheck = document.getElementById('textInput').value;
             // Send a POST request to the grammar checking API
-            fetch('http://localhost:8086/app', {
+            fetch('http://localhost:8086/grammar_bot', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
