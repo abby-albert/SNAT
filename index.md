@@ -1,74 +1,159 @@
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pro Student Pal</title>
+    <title>Snake Game</title>
     <style>
         body {
-            background-color: #f0e68c; /* Pastel Khaki */
-            margin: 0; /* Remove default body margin */
-        }
-        header {
-            text-align: center; /* Center-align the content horizontally */
-            background-color: #ffb6c1; /* Pastel Pink */
-            padding: 20px;
-            border: 1px solid #000;
-        }
-        .center {
+            background-color: #f0f0f0;
             display: flex;
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
+            justify-content: center;
+            align-items: center;
             height: 100vh;
+            margin: 0;
         }
-        nav {
-            text-align: center; /* Center-align the content horizontally */
-            background-color: #87cefa; /* Pastel Sky Blue */
-            padding: 20px;
+
+        #game-board {
+            border: 2px solid #000;
+            display: grid;
+            grid-template-columns: repeat(20, 20px);
         }
-        nav a {
-            text-decoration: none;
-            margin: 10px;
-            color: #333; /* Dark Gray for links */
+
+        .cell {
+            width: 20px;
+            height: 20px;
+            background-color: #00f;
         }
-        nav a.button {
-            display: inline-block;
-            background-color: #c5e17a; /* Pastel Green */
-            color: #333; /* Dark Gray for button text */
-            padding: 15px 30px; /* Adjust the padding to make the buttons bigger */
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
+
+        #snake-head {
+            background-color: #f00;
         }
-        section {
-            background-color: #ffc0cb; /* Pastel Pink */
-            text-align: center;
-            padding: 20px;
-            color: #333; /* Dark Gray for text */
+
+        .food {
+            background-color: #0f0;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>✧ Pro Student Pal ✧</h1>
-    </header>
-     <nav>
-        <a href="{{site.baseurl}}/">Home</a>
-        <a href="{{site.baseurl}}/schedule">Planner</a>
-        <a href="{{site.baseurl}}/blogs">School Resources</a>
-        <a href="http://127.0.0.1:4200/student/2023/10/30/ai.html">Ask AI</a>
-        <a href="{{site.baseurl}}/compsci">Flashcards</a>
-        <a href="{{site.baseurl}}/game">Game</a>
-        <a href="{{site.baseurl}}/app">Grammar Bot</a>
-        <a href="http://127.0.0.1:4200/student/2023/08/30/Calculator.html">Calculator</a>
-        <a href="http://127.0.0.1:4200/student/2023/10/25/Weather.html">Geography Help</a>
-        <a href="http://127.0.0.1:4200/student/2023/10/30/aboutus.html">About Us</a>
-    </nav>
+    <div id="game-board"></div>
 
-<section>
-        2023 Sreeja, Nupur, Abby, Tanvi
-    </section>
-    <img src="https://github.com/nighthawkcoders/student/assets/128272483/ef4ccf28-d91e-4af4-8a96-e15986f40e66"
-         width="500" height="300"
-    />
+    <script>
+        const gameBoard = document.getElementById("game-board");
+        const numRows = 20;
+        const numCols = 20;
+        const cellSize = 20;
+        let snake = [{ x: 5, y: 5 }];
+        let direction = "right";
+        let food = getRandomFoodPosition();
+        let score = 0;
+
+        function createGameBoard() {
+            for (let row = 0; row < numRows; row++) {
+                for (let col = 0; col < numCols; col++) {
+                    const cell = document.createElement("div");
+                    cell.className = "cell";
+                    cell.style.width = cell.style.height = cellSize + "px";
+                    gameBoard.appendChild(cell);
+                }
+            }
+        }
+
+        function updateGameBoard() {
+            const cells = document.querySelectorAll(".cell");
+            cells.forEach((cell) => {
+                cell.className = "cell";
+            });
+
+            snake.forEach((segment, index) => {
+                const snakeSegment = document.createElement("div");
+                snakeSegment.className = "cell";
+                if (index === 0) {
+                    snakeSegment.id = "snake-head";
+                }
+                gameBoard.appendChild(snakeSegment);
+            });
+
+            const foodCell = document.createElement("div");
+            foodCell.className = "food";
+            gameBoard.appendChild(foodCell);
+        }
+
+        function getRandomFoodPosition() {
+            let foodX, foodY;
+            do {
+                foodX = Math.floor(Math.random() * numCols);
+                foodY = Math.floor(Math.random() * numRows);
+            } while (snake.some(segment => segment.x === foodX && segment.y === foodY));
+            return { x: foodX, y: foodY };
+        }
+
+        function moveSnake() {
+            const headX = snake[0].x;
+            const headY = snake[0].y;
+            let newHeadX, newHeadY;
+
+            if (direction === "up") {
+                newHeadX = headX;
+                newHeadY = headY - 1;
+            } else if (direction === "down") {
+                newHeadX = headX;
+                newHeadY = headY + 1;
+            } else if (direction === "left") {
+                newHeadX = headX - 1;
+                newHeadY = headY;
+            } else if (direction === "right") {
+                newHeadX = headX + 1;
+                newHeadY = headY;
+            }
+
+            if (newHeadX === food.x && newHeadY === food.y) {
+                snake.unshift(food);
+                score += 10;
+                food = getRandomFoodPosition();
+            } else {
+                snake.pop();
+                snake.unshift({ x: newHeadX, y: newHeadY });
+            }
+        }
+
+        function checkCollision() {
+            const headX = snake[0].x;
+            const headY = snake[0].y;
+            if (
+                headX < 0 || headX >= numCols ||
+                headY < 0 || headY >= numRows ||
+                snake.slice(1).some(segment => segment.x === headX && segment.y === headY)
+            ) {
+                alert("Game Over! Your Score: " + score);
+                resetGame();
+            }
+        }
+
+        function resetGame() {
+            snake = [{ x: 5, y: 5 }];
+            direction = "right";
+            food = getRandomFoodPosition();
+            score = 0;
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === "ArrowUp" && direction !== "down") {
+                direction = "up";
+            } else if (event.key === "ArrowDown" && direction !== "up") {
+                direction = "down";
+            } else if (event.key === "ArrowLeft" && direction !== "right") {
+                direction = "left";
+            } else if (event.key === "ArrowRight" && direction !== "left") {
+                direction = "right";
+            }
+        }
+
+        createGameBoard();
+        document.addEventListener("keydown", handleKeyPress);
+
+        setInterval(() => {
+            moveSnake();
+            checkCollision();
+            updateGameBoard();
+        }, 100);
+    </script>
 </body>
 </html>
