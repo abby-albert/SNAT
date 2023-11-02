@@ -5,12 +5,12 @@
     <title>Pro Student Pal</title>
     <style>
         body {
-            background-color: #f0e68c; /* Pastel Khaki */
+            background-color: #f0f0f0; /* Light gray color */
             margin: 0; /* Remove default body margin */
         }
         header {
             text-align: center; /* Center-align the content horizontally */
-            background-color: #ffb6c1; /* Pastel Pink */
+            background-color: #ffc0cb; /* Light pink color */
             padding: 20px;
             border: 1px solid #000;
         }
@@ -22,11 +22,11 @@
         }
         nav {
             text-align: center; /* Center-align the content horizontally */
-            background-color: #87cefa; /* Pastel Sky Blue */
+            background-color:  #fff; /* white color */
             padding: 20px;
         }
         nav a {
-            text-decoration: none;
+            text-decoration: none; #333; /* Dark Gray for links */
             margin: 10px;
             color: #333; /* Dark Gray for links */
         }
@@ -40,10 +40,10 @@
             text-decoration: none;
         }
         section {
-            background-color: #ffc0cb; /* Pastel Pink */
+            background-color:  #333; /* Dark gray color */
             text-align: center;
             padding: 20px;
-            color: #333; /* Dark Gray for text */
+            color: #fff; /* White color for the text */
         }
     </style>
 </head>
@@ -67,10 +67,9 @@
     </nav>
 
 <section>
-        2023 Sreeja, Nupur, Abby, Tanvi
     </section>
-    <img src="https://github.com/nighthawkcoders/student/assets/128272483/ef4ccf28-d91e-4af4-8a96-e15986f40e66"
-         width="500" height="300"
+    <img src="https://github.com/Sreejarai123/2nd-backend-for-snat/assets/142522690/758512cc-00fb-47c5-947d-097a3afc65f4"
+         width="400" height="300"
     />
 </body>
 </html>
