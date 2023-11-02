@@ -66,10 +66,6 @@
         <a href="http://127.0.0.1:4200/student/2023/10/30/aboutus.html">About Us</a>
     </nav>
 
-<section>
-    </section>
-    <img src="https://github.com/Sreejarai123/2nd-backend-for-snat/assets/142522690/758512cc-00fb-47c5-947d-097a3afc65f4"
-         width="400" height="300"
+<img src="https://user-images.githubusercontent.com/142523190/280141935-d5dea0f1-3109-4d33-9993-b1339a8ecf9d.png"
+         width="400" height="400"
     />
-</body>
-</html>
